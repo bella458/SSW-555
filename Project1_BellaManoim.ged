@@ -1,0 +1,175 @@
+0 HEAD
+0 NOTE Student Name is Bella Manoim
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE My Family
+1 DATE 25 JAN 2019
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Bella Manoim
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Bella /Manoim/
+2 GIVN Bella
+2 SURN Manoim
+2 _MARNM Manoim
+1 SEX F
+1 BIRT
+2 DATE 30 MAR 1989
+1 FAMS @F1@
+1 FAMS @F2@
+1 FAMC @F3@
+0 NOTE end of individual Bella Manoim
+0 @I2@ INDI
+1 NAME Ilya /Manoim/
+2 GIVN Ilya
+2 SURN Manoim
+2 _MARNM Manoim
+1 SEX M
+1 BIRT
+2 DATE 1 FEB 1960
+1 FAMS @F3@
+1 FAMS @F6@
+1 FAMC @F4@
+0 NOTE end of individual Ilya Manoim
+0 @I3@ INDI
+1 NAME Rimma /Astanovskaya/
+2 GIVN Rimma
+2 SURN Astanovskaya
+2 _MARNM Astanovskaya
+1 SEX F
+1 BIRT
+2 DATE 23 DEC 1965
+1 FAMS @F3@
+1 FAMS @F5@
+0 NOTE end of individual Rimma Astanovskaya
+0 @I4@ INDI
+1 NAME Rajeev /Ramachandran/
+2 GIVN Rajeev
+2 SURN Ramachandran
+2 _MARNM Ramachandran
+1 SEX M
+1 BIRT
+2 DATE 1 AUG 1975
+1 FAMS @F5@
+0 NOTE end of individual Rajeev Ramachandran
+0 @I5@ INDI
+1 NAME Ketevan /Gogidze/
+2 GIVN Ketevan
+2 SURN Gogidze
+2 _MARNM Gogidze
+1 SEX F
+1 BIRT
+2 DATE 1 JAN 1965
+1 FAMS @F6@
+1 FAMS @F7@
+0 NOTE end of individual Ketevan Gogidze
+0 @I6@ INDI
+1 NAME Nikoloz /Gogidze/
+2 GIVN Nikoloz
+2 SURN Gogidze
+2 _MARNM Gogidze
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1995
+1 FAMC @F7@
+0 NOTE end of individual Nikoloz Gogidze
+0 @I7@ INDI
+1 NAME Noah /Jensen/
+2 GIVN Noah
+2 SURN Jensen
+2 _MARNM Jensen
+1 SEX M
+1 BIRT
+2 DATE 30 JUL 1986
+1 DEAT Y
+2 DATE 1 APR 2018
+1 FAMS @F2@
+0 NOTE end of individual Noah Jensen
+0 @I8@ INDI
+1 NAME Penny /Manoim/
+2 GIVN Penny
+2 SURN Manoim
+2 _MARNM Manoim
+1 SEX F
+1 BIRT
+2 DATE 3 JAN 2014
+1 FAMC @F2@
+0 NOTE end of individual Penny Manoim
+0 @I9@ INDI
+1 NAME Lucy /Manoim/
+2 GIVN Lucy
+2 SURN Manoim
+2 _MARNM Manoim
+1 SEX F
+1 BIRT
+2 DATE 22 AUG 2014
+1 FAMC @F2@
+0 NOTE end of individual Lucy Manoim
+0 @I10@ INDI
+1 NAME Dave /Jones/
+2 GIVN Dave
+2 SURN Jones
+2 _MARNM Jones
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1983
+1 FAMS @F1@
+0 NOTE end of individual Dave Jones
+0 @I11@ INDI
+1 NAME Rita /Jones/
+2 GIVN Rita
+2 SURN Jones
+2 _MARNM Jones
+1 SEX F
+1 BIRT
+2 DATE 1 JAN 2019
+1 FAMC @F1@
+0 NOTE end of individual Rita Jones
+0 @F1@ FAM
+1 MARR
+2 DATE 30 DEC 2018
+1 HUSB @I10@
+1 WIFE @I1@
+1 CHIL @I11@
+1 _CURRENT Y
+0 @F2@ FAM
+1 MARR
+2 DATE 30 DEC 2011
+1 HUSB @I7@
+1 WIFE @I1@
+1 CHIL @I8@
+1 CHIL @I9@
+1 _CURRENT N
+0 @F3@ FAM
+1 MARR
+2 DATE 1 JAN 1985
+1 DIV
+2 DATE 1 MAR 2000
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+1 _CURRENT N
+0 @F6@ FAM
+1 MARR
+2 DATE 1 JUN 2010
+1 HUSB @I2@
+1 WIFE @I5@
+1 _CURRENT N
+0 @F4@ FAM
+1 CHIL @I2@
+1 _CURRENT N
+0 @F5@ FAM
+1 MARR
+2 DATE 1 MAR 20 2008
+1 HUSB @I4@
+1 WIFE @I3@
+1 _CURRENT Y
+0 @F7@ FAM
+1 WIFE @I5@
+1 CHIL @I6@
+0 TRLR
